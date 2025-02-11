@@ -33,6 +33,23 @@ section {
   padding: 108px;
 }
 
+.section-title {
+  position: relative;
+  font-size: 36px;
+  margin: 0 0 60px 0;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  bottom: -12px;
+  left: 50%;
+  width: 50px;
+  height: 10px;
+  transform: translateX(-50%);
+  background-color: $color-main;
+}
+
 /* Splash */
 .splash {
   height: 100vh;
@@ -99,4 +116,9 @@ section {
   padding: 48px 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+/* About */
+.about {
+  background: #f0f0f0;
 }
