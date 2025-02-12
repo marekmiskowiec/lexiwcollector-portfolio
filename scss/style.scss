@@ -123,10 +123,31 @@ section {
   background: #f0f0f0;
 }
 
+/* gallery */
+
+.gallery .images {
+  display: flex;
+  max-width: 1600px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.gallery img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 /* Footer */
 .page-footer {
   background-color: #242424;
   color: $color-light;
   font-size: 12px;
-  padding: 15px;
 }
