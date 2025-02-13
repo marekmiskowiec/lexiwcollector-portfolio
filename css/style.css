@@ -127,7 +127,7 @@ section {
 
 .gallery img {
   width: 400px;
-  height: 200px;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
   padding: 10px;
@@ -138,9 +138,58 @@ section {
   opacity: 0.5;
 }
 
+/* contact */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+}
 /* Footer */
 .page-footer {
   background-color: #242424;
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
+  padding: 10px;
 }
